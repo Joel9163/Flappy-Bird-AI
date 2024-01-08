@@ -132,7 +132,7 @@ def train(config_file):
 
     neat_pop = neat.Population(config)
 
-    #show the summary statistics of the learning progress
+    #show the statistics
     neat_pop.add_reporter(neat.StdOutReporter(True))
     stats = neat.StatisticsReporter()
     neat_pop.add_reporter(stats)
